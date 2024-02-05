@@ -23,7 +23,6 @@
 
 .inicio_pagina{
     padding: 4.5% 0% 0% 30%;
-    
 }
 
 .inicio_pagina_link {
@@ -47,19 +46,23 @@
 .inicio__pagina__menu:hover {
     background-color: rgba(242, 242, 242, 0.2);
     padding: 5px;
-    animation-duration: 0.2s; 
+    animation-duration: 0.2s;
 }
 
 
 body {
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
+    display: flex;
+    flex-direction: column; 
+    height: 100vh; 
 }
 
 .apresentacao {
     gap: 20px;
     padding: 6% 30%;
     display: flex;
+    flex:1 ; 
     align-items: center;
     justify-content: space-between;
 }
@@ -146,7 +149,7 @@ body {
 
 .rodape {
     color: var(--cor-primaria);
-    padding: 15px;
+    padding: 20px;
     border: 5px solid var(--cor-secundaria);
     background-color: var(--cor-terciaria);
     text-align: center;
